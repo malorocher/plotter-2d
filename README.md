@@ -12,7 +12,7 @@
   - Add your YouTube unlisted link in the Demo section.
   - Photos needed: top view, close-up of pen carriage, a finished drawing on paper.
   - Delete this comment block before pushing.
--->
+--
 
 ![Demo GIF](docs/demo.gif)
 
@@ -141,7 +141,7 @@ Results:
 
 | Square | Spiral | Logo |
 |---|---|---|
-| ![square](docs/test-square.jpg) | ![spiral](docs/test-spiral.jpg) | ![logo](docs/test-logo.jpg) |
+| ![square](docs/test-square.jpeg) | ![spiral](docs/test-spiral.jpeg) | ![logo](docs/test-logo.png) |
 <!-- [TODO] Add your test photos to docs/ -->
 
 ---
@@ -160,14 +160,6 @@ Results:
   CAD, 3D printing, wiring, firmware configuration, and validation testing.
 
 ---
-
-## Demo
-
-[Watch the plotter in action (YouTube — ~1 min)](https://youtu.be/TODO)
-<!-- [TODO] Replace with your unlisted YouTube link -->
-
----
-
 ## Repository Structure
 
 ```
