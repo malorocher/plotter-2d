@@ -14,7 +14,10 @@
   - Delete this comment block before pushing.
 -->
 
-|![Demo GIF](docs/demo.gif)|
+<div align="center">
+  <img src="docs/demo.gif" alt="Demo" width="600">
+</div>
+
 
 ---
 
