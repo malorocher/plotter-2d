@@ -14,7 +14,7 @@
   - Delete this comment block before pushing.
 -->
 
-![Demo GIF](docs/demo.gif)
+|![Demo GIF](docs/demo.gif)|
 
 ---
 
