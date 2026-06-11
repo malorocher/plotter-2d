@@ -99,7 +99,7 @@ Every housing was iterated 2–3 times to achieve the right press-fit on the Ø8
 
 | CAD model | Physical build |
 |---|---|
-| ![cad](docs/cad-model.png) | ![build](docs/machine-photo.jpg) |
+| ![cad](docs/cad-model.png) | ![build](docs/machine-photo.jpeg) |
 <!-- [TODO] Add your photos to docs/ -->
 
 ---
