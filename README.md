@@ -12,7 +12,7 @@
   - Add your YouTube unlisted link in the Demo section.
   - Photos needed: top view, close-up of pen carriage, a finished drawing on paper.
   - Delete this comment block before pushing.
---
+-->
 
 ![Demo GIF](docs/demo.gif)
 
