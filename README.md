@@ -32,17 +32,7 @@ The electronics stack runs GRBL firmware on an Arduino Uno with A4988 stepper dr
 
 ## System Architecture
 
-```
-[Inkscape]  ──SVG──▶  [G-code generator]  ──USB──▶  [UGS]  ──Serial──▶  [Arduino Uno + GRBL]
-  (design)              (Inkscape plugin)             (sender)              (firmware)
-                                                                                │
-                                                    ┌───────────────────────────┤
-                                                    │                           │
-                                               [A4988 × 2]               [A4988 × 1]
-                                          NEMA 17 stepper motors      Servo MG90-180
-                                            X-axis    Y-axis              Z-axis
-                                          (lead screw) (lead screw)    (pen up/down)
-```
+![Electronics Architecture](docs/Electronics-Architecture.jpg)
 
 **Step 1 — Inkscape (SVG design)**
 Vector drawing made in Inkscape (free, open-source). Saved as `.svg`.
