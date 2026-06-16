@@ -4,16 +4,6 @@
 > frame, lead-screw kinematics, and an end-to-end software chain from vector drawing to physical
 > output — from a blank page to a working drawing machine.
 
-<!--
-  INSTRUCTIONS (delete before pushing to GitHub):
-  - Replace every [TODO] with your real content.
-  - Add demo.gif as the very first image: film the machine drawing, convert at ezgif.com/video-to-gif (free, 30 s).
-    Drag the file into GitHub's file picker → copy the URL → replace the placeholder below.
-  - Add your YouTube unlisted link in the Demo section.
-  - Photos needed: top view, close-up of pen carriage, a finished drawing on paper.
-  - Delete this comment block before pushing.
--->
-
 <div align="center">
   <img src="docs/demo.gif" alt="Demo" width="600">
 </div>
@@ -163,27 +153,19 @@ Results:
   CAD, 3D printing, wiring, firmware configuration, and validation testing.
 
 ---
-## Repository Structure
+## Deliverables
 
-```
-plotter-2d/
-├── docs/                  # Photos, GIF, test results
-│   ├── demo.gif
-│   ├── cad-model.png
-│   ├── machine-photo.jpg
-│   ├── test-square.jpg
-│   ├── test-spiral.jpg
-│   └── test-logo.jpg
-├── cad/                   # Creo .prt / .asm + exported STL files
-│   ├── bearing-housing.stl
-│   ├── motor-support-x.stl
-│   ├── motor-support-y.stl
-│   ├── pen-holder.stl
-│   └── ...
-├── grbl-config/           # GRBL $ parameters used (steps/mm, accel, etc.)
-│   └── grbl-settings.txt
-└── README.md
-```
+All project documents are attached to the [v1.0 Release](https://github.com/malorocher/plotter-2d/releases/tag/v1.0):
+
+| Document | Description |
+|---|---|
+| [`livrable-1-cadrage.pdf`](https://github.com/malorocher/plotter-2d/releases/download/v1.0/livrable-1-cadrage.pdf) | Project scoping — specs, functional analysis, constraints |
+| [`livrable-2-analyse-valeur.pdf`](https://github.com/malorocher/plotter-2d/releases/download/v1.0/livrable-2-analyse-valeur.pdf) | Value analysis — component selection rationale |
+| [`livrable-3-conception-cao.pdf`](https://github.com/malorocher/plotter-2d/releases/download/v1.0/livrable-3-conception-cao.pdf) | CAD design — mechanical architecture, 3D-printed parts |
+| [`livrable-4-fabrication-assemblage.pdf`](https://github.com/malorocher/plotter-2d/releases/download/v1.0/livrable-4-fabrication-assemblage.pdf) | Manufacturing & assembly — build process, BOM |
+| [`plotter-2d-soutenance-intermediaire.pdf`](https://github.com/malorocher/plotter-2d/releases/download/v1.0/plotter-2d-soutenance-intermediaire.pdf) | Mid-project presentation |
+| [`plotter-2d-soutenance-finale.pdf`](https://github.com/malorocher/plotter-2d/releases/download/v1.0/plotter-2d-soutenance-finale.pdf) | Final presentation |
+
 
 ---
 
